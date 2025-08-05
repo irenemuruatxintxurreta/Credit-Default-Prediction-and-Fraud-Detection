@@ -45,12 +45,14 @@ Due to file size constraints, datasets are not hosted in this repository.
 To run the project locally:
 
 1. **Fraud Detection Data**  
-   Download the following files from the [Kaggle IEEE-CIS Fraud Detection Competition]:  
+   Download the following files from the [Kaggle IEEE-CIS Fraud Detection Competition]:
+   https://www.kaggle.com/competitions/ieee-fraud-detection/data
+
    - `train_transaction.csv`  
    - `train_identity.csv`  
 
 
-2. **Credit Default Prediction Data**  
+3. **Credit Default Prediction Data**  
    Add the file `cs-training.csv`, used for the credit risk modeling part.
 
 ---
