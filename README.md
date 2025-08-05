@@ -53,8 +53,6 @@ To run the project locally:
 2. **Credit Default Prediction Data**  
    Add the file `cs-training.csv`, used for the credit risk modeling part.
 
-📁 Place all these files inside a `/data/` folder at the root of the repository.
-
 ---
 
 ## 📄 About `predicciones_flags.csv`
