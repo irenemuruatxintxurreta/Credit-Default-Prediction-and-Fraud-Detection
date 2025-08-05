@@ -31,4 +31,38 @@ Both tasks involve significant class imbalance and demand high recall to minimiz
 
 ## 📁 Folder Structure
 
+├── Credit_Default_Prediction_Irene_Murua.ipynb      # Notebook for credit default modeling
+├── Fraud_Detection_Irene_Murua.ipynb                # Notebook for fraud detection pipeline
+├── cs-training.csv                                  # Dataset for credit default
+├── predicciones_flags.csv                           # Output used in fraud filter model
+├── Credit Default Prediction and Fraud Detection.docs  # Full project report
+├── README.md                                        # Project overview and instructions
 
+## 📂 Dataset
+
+Due to file size constraints, datasets are not hosted in this repository.
+
+To run the project locally:
+
+1. **Fraud Detection Data**  
+   Download the following files from the [Kaggle IEEE-CIS Fraud Detection Competition]:  
+   - `train_transaction.csv`  
+   - `train_identity.csv`  
+
+
+2. **Credit Default Prediction Data**  
+   Add the file `cs-training.csv`, used for the credit risk modeling part.
+
+📁 Place all these files inside a `/data/` folder at the root of the repository.
+
+---
+
+## 📄 About `predicciones_flags.csv`
+
+This file is generated during the fraud detection pipeline (specifically in `Fraud_Detection_Irene_Murua.ipynb`). It includes:
+
+- The original model probabilities
+- Flags for false negatives
+- Additional engineered features for use in the filtering model
+
+It’s used to train the **secondary filter model** that corrects missed fraud cases and helps improve precision while preserving recall.
